@@ -1,0 +1,137 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>DESTEC</title>
+  <link rel="stylesheet" href="destec.css" type="text/css">
+  <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+  <div class="topbackground">
+    <div class="top">
+      <p>
+        <h1>DESARROLLOS TECNOLÓGICOS LSD</h1>
+      </p>
+    </div>
+    <div class="btn">
+      <button id="abtbtn" class="introbtn">Acerca de...</button>
+      <button id="prjbtn" class="introbtn">Proyectos</button>
+      <button id="cntbtn" class="introbtn">Contacto</button>
+    </div>
+  </div>
+
+  <div class="div2">
+  </div>
+
+  <div class="aboutbackground">
+    <div class="about">
+      <h1>Acerca de...</h1>
+      <p><b>Desarrollos Tecnológicos LSD</b> es un equipo de trabajo conformado por docentes, alumnos e investigadores
+        del Laboratorio de Sistemas Digitales, dentro del Departamento de Ingeniería Eléctrica y Computadoras de la
+        Universidad Nacional del Sur, con el objetivo de asesorar y colaborar con el sector socio productivo de Bahía
+        Blanca y su zona en el desarrollo de nuevas tecnologías. Nuestros temas de interés abarcan desde los sistemas
+        embebidos, pasando por el desarrollo de aplicaciones para dispositivos móviles y el procesamiento y análisis de
+        la información.</p>
+    </div>
+  </div>
+
+  <div class="div3">
+  </div>
+
+  <div class="projectbackground">
+    <div class="projects">
+      <h1>Proyectos</h1>
+      <div class="projectsinfo">
+        <div style="width: 30%;">
+          <h1>Registrador</h1>
+          <p>En este trabajo se desarrolló un sistema electrónico para medir y registrar los datos obtenidos de celdas
+            de carga y sensores inductivos a fines de generar la información requerida para realizar posteriores
+            análisis de la eficiencia de la maquinaria agrícola sometida a pruebas de rendimiento. Además se detallan
+            los aspectos principales del proceso de desarrollo, diseño de hardware y software, cuestiones de
+            implementación y resultados experimentales obtenidos en las pruebas de laboratorio. <a
+              href="http://sedici.unlp.edu.ar/handle/10915/57678"><b>Más info...</b></a></p>
+          <img class="projectsimg" src="registrador_2.jpg">
+        </div>
+
+        <div style="width: 30%;">
+          <h1>LabSPApp</h1>
+          <p>LabSPApp permite analizar imágenes de suelos y muestras de laboratorio mediante procesamiento digital de
+            las fotografías capturadas con la cámara del smartphone. La principal herramienta permite calcular
+            porcentajes de cobertura vegetal de suelos y discriminar entre materia vegetal viva o muerta. Por otro lado,
+            es posible estimar el desarrollo radicular de plantas en estadíos de germinación. <a
+              href="https://play.google.com/store/apps/details?id=io.cordova.labpspapp&hl=es"><b>Más info...</b></a></p>
+          <img class="projectsimg" src="labspapp_play.jpg">
+        </div>
+
+        <div style="width: 30%;">
+          <h1>FEPSA</h1>
+          <p>Esta aplicación permite crear un <i>consist</i> con los vagones que integran la formacion de un tren e
+            informarla via mail al centro de control. A lo largo de la vida del tren puede modificarse, actualizarse y
+            enviarse nuevamente. <a href="https://play.google.com/store/apps/details?id=com.fepsa.consist"><b>Más
+                info...</b></a></p>
+          <img class="projectsimg" src="fepsa_play.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="div4">
+  </div>
+
+  <div class="contactbackground">
+    <div class="contact">
+      <h1>Contacto</h1>
+      <p>
+        Departamento de Ingeniería Eléctrica y Computadoras <br>
+        Universidad Nacional del Sur <br>
+        Avda. San Andrés 800 - IIIE/DIEC <br>
+        B8000CPB Bahía Blanca, Buenos Aires, Argentina. <br>
+        Tel: 00 54 0291 459 5181 <br>
+        Fax: 0054 0291 459 5154 <br>
+        e-mail: <a href="mailto:des.tec.lsd@gmail.com">des.tec.lsd@gmail.com</a></p>
+      <div class="location">
+        <div id="map" style="height:50%;">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+      $('#abtbtn').on('click', function (event) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: $(".aboutbackground").offset().top
+        }, 1000);
+      });
+
+      $('#prjbtn').on('click', function (event) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: $(".projectbackground").offset().top
+        }, 1500);
+      });
+
+      $('#cntbtn').on('click', function (event) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: $(".contactbackground").offset().top
+        }, 1500);
+      });
+
+      function myMap() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-38.6949231, -62.2484695, 353),
+          zoom: 18,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      };
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+
+</html>
