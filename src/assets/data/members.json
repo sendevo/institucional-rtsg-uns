@@ -1,0 +1,173 @@
+{
+    "jorozco": {
+        "name": "Javier Orozco",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Javier.jpg",
+        "bio": "Javier Orozco received the Electrical Engineering degree and the Doctorate in Engineering (supervised by Jorge Santos) from the Universidad Nacional del Sur in 1984 and 1998 respectively. His research is focused on the scheduling of real-time systems, collaborative systems and communication systems. He has supervised Rodrigo Santos, Jose Urriza doctoral thesis and supervised Leo Ordinez and David Donari doctoral thesis. He has supervised Martin Duval Master thesis. He is actually supervising Francisco Paez and Damian Banfi both with CONICET's Doctoral scholarship. He teaches Logical Design at the under-graduate level and dictates graduate courses. He is the Director of the Argentine-French Project ARFITEC for the UNS. He has been Dean Director of the Department of Electrical Engineering and Computers 2001-2008 and has served in several Evaluation Committees at both CONICET and ANPCyT. <br> He is currently the Head of the RTS group.",
+        "contact": {
+            "email": "jorozco@uns.edu.ar"
+        }
+    },
+    "rsantos": {
+        "name": "Rodrigo Santos",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Rodrigo.jpg",
+        "bio": "Rodrigo Martin Santos received the Electrical Engineering degree and the Doctorate in Engineering (supervised in the final stages by Javier Orozco) from the Universidad Nacional del Sur in 1997 and 2001, respectively. He is presently CONICET Adjunt Researcher. His research interests are scheduling embedded real-time systems, data ad-hoc networks and collaborative systems. He has supervised Leo Ordinez and David Donari doctoral thesis under CONICET's scholarships in the area of real-time operating systems. He is supervising interdisciplinary thesis of Gabriel Eggly and Matias Micheletto together with researchers from INQUISUR and CERZOS in CONICET. In 2003, 2005, 2007 and 2010 he has been a visiting scholar at the Scuola Superiore Sant'Anna, Pisa, Italy, working together with Prof. Lipari. In 2015 he has been at University of Pittsburgh working with Prof. Mosse under a CONICET-Fulbright program. He teaches Digital Embedded Computers and Data Networks at the under-graduate level and several graduate courses. He has been a visiting Professor at Universidad Nacional de San Agustin, Arequipa, Peru, Scuola Superiore Sant'Anna, Universidad Nacional de la Patagonia San Juan Bosco and Universidad Argentina de la Empresa.",
+        "contact": {
+            "email": "ierms@uns.edu.ar"
+        }
+    },
+    "rcayssials": {
+        "name": "Ricardo Cayssials",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Ricardo.jpg",
+        "bio": "Ricardo Cayssials received the Electrical Engineering degree and the Doctorate in Engineering (supervised by Jorge Santos) from the Universidad Nacional del Sur in 1993 and 1999 respectively. In 2001, he was granted a postdoctoral scholarship by The University of York, England, which visited again at the beginning of 2003. His main research area is Programmable Logic. Because of his work, the Digital Systems Laboratory is a member of the ALTERA University Program. He teaches Design of Highly Complex Logical Circuits. His second research area is the schedulability analysis of hard and weakly real time for both multi-user-single-resource and multi-user-multi-resource systems. He has supervised the Master Thesis of Martin Duval and Adriana Micheli. He is actually supervising Damian Banfi Doctoral Thesis with a CONICET doctoral scholarship. He is the head of the graduate program on advanced digital architectures. Since 2013 he is Full Professor at Facultad Regional Bahia Blanca of Universidad Tecnológica Nacional.",
+        "contact": {
+            "email": "ricardolcayssials@gmail.com"
+        }
+    },
+    "eferro": {
+        "name": "Edgardo Ferro",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Edgardo.jpg",
+        "bio": "Edgardo Ferro received the Electronics Engineering and the Doctorate in Engineering (supervised by Jorge Santos) degrees from the Universidad Nacional del Sur in 1990 and 1999 respectively. His research interests have covered telemedical systems and the assignment problem in multitask-multiprocessor systems using heuristic methods, evolutionary algorithms and tabu search. He teaches Applied Computer Engineering. He has supervised Master thesis of Adriana Micheli.",
+        "contact": {
+            "email": "ieferro@criba.edu.ar"
+        }
+    },
+    "dsanchez": {
+        "name": "Diana Sánchez",
+        "status": "member",
+        "degree": "Electronic Engineer",
+        "pic": "img/profiles/Diana.jpg",
+        "bio": "Diana Sánchez received the Electronics Engineering degree from the Universidad Nacional del Sur in 1998. Her research is centered on the utilization of wireless sensor networks for the assistance of elderly people. Since 2016 she is Adjunt Professor at Universidad Nacional del Sur. She has served as Academic Secretary at Departamento de Ingenieria Electrica y Computadoras.",
+        "contact": {
+            "email": "dgsanchez@uns.edu.ar"
+        }
+    },
+    "geggly": {
+        "name": "Gabriel Eggly",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Gabriel.jpg",
+        "bio": "Gabriel Eggly received the Electronics Engineer and the Doctorate in Engineering (supervised by Rodrigo Santos) degrees from the Universidad Nacional del Sur in 2013 and 2018. He has a Doctoral Scholarship from CONICET. His research interest is in the field of embedded systems for instrumentation and control of chemical analysis and processes. He is supervised by Rodrigo Santos and Marcelo Pistonesi from INQUISUR. He assists in the courses of Digital Computers.",
+        "contact": {
+            "email": "gmeggly@gmail.com"
+        }
+    },
+    "mmicheletto": {
+        "name": "Matías Micheletto",
+        "status": "member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Matias.jpg",
+        "bio": "Matías Micheletto received the Electronics Engineer degree and the Doctorate in Engineering (supervised by Rodrigo Santos and Juan Galantini) from the Universidad Nacional del Sur in 2016 and 2020. He has a Post-doctoral Scholarship from CONICET. His research interest is in the field of numeric optimization and embedded systems for instrumentation applied to the analysis of soil and crops. He is supervised by Carlos De Marziani from IIDEPyS and Rodrigo Santos.",
+        "contact": {
+            "email": "matias.micheletto@uns.edu.ar",
+            "linkedin": "https://ar.linkedin.com/in/matiasmicheletto"
+        }
+    },
+    "dbanfi": {
+        "name": "Damián Banfi",
+        "status": "past_member",
+        "degree": "Electronic Engineer",
+        "pic": "img/profiles/Damian.jpg",
+        "bio": "Damián Banfi received the Electronics Engineer degree from the Universidad Tecnoloica Nacional in 2015. He has a Doctoral Scholarship from CONICET. His research interest is in the field of hardware description languages applied to the co-design of embedded system. He assists in the courses of Digital Systems.",
+        "contact": {
+            "email": "damian.banfi@hotmail.com"
+        }
+    },
+    "jurriza": {
+        "name": "José Urriza",
+        "status": "related_member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Jose.jpg",
+        "bio": "José Manuel Urriza received the Doctor in Engineer from the Universidad Nacional del Sur in 2008. He received the Electronics Engineering degree from the Universidad Nacional del Sur in 2000. His research is centered on the schedulability of heterogeneous Real-Time Systems. Since 2009 he is Adjunt Professor at Universidad Nacional de la Patagonia San Juan Bosco at Puerto Madryn.",
+        "contact": {
+            "email": ""
+        }
+    },
+    "lordinez": {
+        "name": "Leonardo Ordinez",
+        "status": "related_member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/Leo.jpg",
+        "bio": "Leo Ordinez received the Doctor in Engineer from the Universidad Nacional del Sur in 2010. He received the Systems Engineering degree from the Universidad Nacional del Sur in 2006. His research is centered on the modeling and requirement analysis of cyber-physical systems. Since 2015 he is Adjunt Professor at Universidad Nacional de la Patagonia San Juan Bosco at Puerto Madryn and Universidad de Chubut in Rawson.",
+        "contact": {
+            "email": "lordinez@uns.edu.ar"
+        }
+    },
+    "fpaez": {
+        "name": "Francisco Paez",
+        "status": "related_member",
+        "degree": "Computing Engineering",
+        "pic": "img/profiles/Francisco.jpg",
+        "bio": "Francisco Paez received the Licenciature in Informatics degree from the Universidad Nacional San Juan Bosco in 2012. He has a Doctoral Scholarship from CONICET. His research interest is in the schedulability of heterogeneous Real-Time Systems with energy constraints. He is supervised by Javier Orozco and Jose Urriza. He assists in the courses of Operating Systems.",
+        "contact": {
+            "email": ""
+        }
+    },
+    "mfino": {
+        "name": "Mariano Finochietto",
+        "status": "member",
+        "degree": "Mphil. Engineering",
+        "pic": "img/profiles/Mariano.jpeg",
+        "bio": "Mariano Finochietto received the Systems Engineering degree from the Universidad CAECE in Mar del Plata in 2013 and the MPhil from EISEE (Paris) in 2016. He is actually working at Universidad Nacional de Mar del Plata and he is an IoT Engineer Contractor for SpinalCom (France) and founder of CTO Ponce AgTech. He is a Phdd. Student at Universidad Nacional del Sur under the supervision of Rodrigo Santos. His research interests are in IoT protocols",
+        "contact": {
+            "email": "mariano.fino@gmail.com"
+        }
+    },
+    "allinas": {
+        "name": "Andres Llinas",
+        "status": "member",
+        "degree": "Electronic Engineering",
+        "pic": "img/profiles/Andres.jpeg",
+        "bio": "Andrés Llinás received the Electronic Engineering degree from the Universidad Nacional del Sur in 2008. In 2013 he received the Specialist grade in Gestión de la Tecnología y la Innovación. He has worked in the industry leading several projects and since 2017 he is Director de Telecomunicaciones at Universidad Provincial del Sudoeste. He is teacher assistant at Universidad Nacional del Sur and Professor at UPSO. He is research interests are in software defined networks.",
+        "contact": {
+            "email": "andres.llinas@llinasnet.com"
+        }
+    },
+    "adello": {
+        "name": "Alejandro Dello Russo",
+        "status": "member",
+        "degree": "Electronic Engineering",
+        "pic": "img/profiles/Elian.jpeg",
+        "bio": "Alejandro Dello Russo received the Electronic Engineering degree from the Universidad Nacional del Sur in 2013. He is working at Instituto Nacional de Tecnología Industrial. He is teacher assistant at Universidad Nacional del Sur. He is research interests are Embedded Systems.",
+        "contact": {
+            "email": "andres.llinas@llinasnet.com"
+        }
+    },
+    "jsantos": {
+        "name": "Jorge Santos",
+        "status": "past_member",
+        "degree": "Industrial Engineer",
+        "pic": "img/profiles/Jorge.jpg",
+        "bio": "Jorge Santos received the degree in Industrial Engineering, with honours, from the Universidad de Buenos Aires in 1951. In 1956 he was appointed professor at the recently created Universidad Nacional del Sur. In 1959/60, with a one-year scholarship granted by the National Council of Scientific and Technical Research of Argentina (CONICET), he studied Logical Design of Digital Computers at the University of Manchester, UK. In the early 60s he led the project CEUNS to build the first electronic argentine computer. In 1976, while heading a research group at the Digital Systems Laboratory, he was dismissed from his position by the military dictatorship. After the return of democracy and more then ten years in Surconsult, his own consulting company, he returned full-time to the UNS and started a group studying Local Area Networks in real-time environments, later focused on real-time scheduling. He is actually retired. He is IEEE Life Member, 1993 Konex Diploma Award and Correpondent Academician of the National Academy of Engineering.",
+        "contact": {
+            "email": ""
+        }
+    },
+    "ddonari": {
+        "name": "David Donari",
+        "status": "past_member",
+        "degree": "Ph.D. in Engineering",
+        "pic": "img/profiles/David.jpg",
+        "bio": "David Donari received the Doctor in Engineer from the Universidad Nacional del Sur in 2015. He received the Systems Engineering degree from the Universidad Nacional del Sur in 2006. His actually working as an independent professional.",
+        "contact": {
+            "email": ""
+        }
+    },
+    "oalimenti": {
+        "name": "Omar Alimenti",
+        "status": "past_member",
+        "degree": "Mphil. in Engineering",
+        "pic": "img/profiles/Omar.jpg",
+        "bio": "Omar Alimenti received the Electrical Engineering and the Magister in Engineering (supervised by Jorge Santos) degrees from the Universidad Nacional del Sur in 1979 and 1999, respectively. His main research interest was the monitoring of real-time systems to optimize the slot-time under different load conditions and overheads associated to processor preemptions. He taught Digital Computers for over 20 years. He passed away in January 2013.",
+        "contact": {
+            "email": ""
+        }
+    }
+}

@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { ThemeProvider } from "@mui/material/styles";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Box from "@mui/material/Box";
+import theme from "./theme";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import views from "./pages";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Box
+          sx={{display: "flex",flexDirection: "column",minHeight: "100vh"}}>
+        <Navbar views={views} />
+        <Box
+          component="main"
+          sx={{display: "flex",flexDirection: "column"}}>
+        <Routes>
+          {views.map((view, index) => (
+            <Route key={index} path={view.path} element={view.component} />
+          ))}
+        </Routes>
+        </Box>
+        <Footer />
+        </Box>
+      </Router>
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;

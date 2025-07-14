@@ -1,0 +1,1046 @@
+{
+    "publ2201": {
+        "title": "Open Source Automated Flow Analysis Instrument for Detecting Arsenic in Water",
+        "authors": "Gutiérrez, J., Mochen, J.P., Eggly, G., Pistonesi, M., Santos, R.",
+        "year": "2022",
+        "desc": "HardwareX, 2022, 11, e00284",
+        "authors_ref": ["geggly", "rsantos"],
+        "type": "journal",
+        "links": ["https://www.scopus.com/record/display.uri?eid=2-s2.0-85126927222&origin=resultslist&sort=plf-f"]
+    },
+    "publ2202": {
+        "title": "Flow Scheduling in Data Center Networks with Time and Energy Constraints: A Software-Defined Network Approach",
+        "authors": "Fraga, M., Micheletto, M., Llinás, A., Santos, R., Zabala, P.",
+        "year": "2022",
+        "desc": "Future Internet, 2022, 14(2), 65",
+        "authors_ref": ["mmicheletto", "allinas", "rsantos"],
+        "type": "journal",
+        "links": ["https://www.scopus.com/record/display.uri?eid=2-s2.0-85125341056&origin=resultslist&sort=plf-f"]
+    },
+    "publ2203": {
+        "title": "Analysis of real-time jitter in cyber-physical applications using frequency domain perturbation",
+        "authors": "Cayssials, R., Ferro, E.",
+        "year": "2022",
+        "desc": "International Journal of General Systems, 2022",
+        "authors_ref": ["rcayssials", "eferro"],
+        "type": "journal",
+        "links": ["https://www.scopus.com/record/display.uri?eid=2-s2.0-85132197376&origin=resultslist&sort=plf-f"]
+    },
+    "publ2101": {
+        "title": "LoRaMoto: A communication system to provide safety awareness among civilians after an earthquake",
+        "authors": "Pueyo Centelles, R., Meseguer, R., Freitag, F., ...Ochoa, S.F., Santos, R.M.",
+        "year": "2021",
+        "desc": "Future Generation Computer Systems, 2021, 115, pp. 150–170",
+        "authors_ref": ["rsantos"],
+        "type": "journal",
+        "links": ["https://www.scopus.com/record/display.uri?eid=2-s2.0-85090602021&origin=resultslist&sort=plf-f"]
+    },
+    "publ2102": {
+        "title": "An IoT-based infrastructure to enhance self-evacuations in natural hazardous events",
+        "authors": "Finochietto, J.M., Micheletto, M., Eggly, G.M., ...Meseguer, R., Orozco, J.",
+        "year": "2021",
+        "desc": "Personal and Ubiquitous Computing, 2021",
+        "authors_ref": ["geggly", "mmicheletto", "mfino", "jorozco"],
+        "type": "journal",
+        "links": ["https://www.scopus.com/record/display.uri?eid=2-s2.0-85100556664&origin=resultslist&sort=plf-f"]
+    },
+    "publ2004": {
+        "title": "Embedded real-time systems in cyber-physical applications: a frequency domain analysis methodology",
+        "authors": "C. Aciti, Ricardo Cayssials, Edgardo Ferro, José Manuel Urriza, Javier Orozco",
+        "year": "2020",
+        "desc": "International Journal of General Systems 49(2), pp. 201-221",
+        "authors_ref": ["rcayssials", "eferro", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ2003": {
+        "title": "Predicting Topology Propagation Messages in Mobile Ad Hoc Networks: The Value of History",
+        "authors": "Pere Millan, Carles Aliagas, Carlos Molina, Roc Meseguer, Sergio Ochoa, Rodrigo Santos",
+        "year": "2020",
+        "desc": "SENSORS; Lugar: Basel; vol. 20 p. 1 - 24;",
+        "authors_ref": ["rsantos"],
+        "type": "journal",
+        "links": []
+    },
+    "publ2002": {
+        "title": "Development and Validation of a LiDAR Scanner for 3D Evaluation of Soil Vegetal Coverage",
+        "authors": "Matías Micheletto, Luciano Zubiaga, Rodrigo Santos, Juan Galantini, Miguel Cantamutto, Javier Orozco",
+        "year": "2020",
+        "desc": "Electronics Place: Basel, vol. 9;",
+        "authors_ref": ["mmicheletto", "rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ2001": {
+        "title": "Using UML for learning how to design and model cyber-physical systems",
+        "authors": "Leo Ordinez, Gabriel Eggly, Matías Micheletto, Rodrigo Santos",
+        "year": "2020",
+        "desc": "IEEE Journal of Latin-American Learning Technologies; Año: 2020",
+        "authors_ref": ["geggly", "mmicheletto", "rsantos"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1903": {
+        "title": "A Nomadic Testbed for Teaching Computer Architecture",
+        "authors": "P. D. Godoy, R. L. García Garino, Ricardo Cayssials",
+        "year": "2019",
+        "desc": "Communications in Computer and Information Science 995, pp. 74-87 ",
+        "authors_ref": ["rcayssials"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1902": {
+        "title": "A Role-Based Software Architecture to Support Mobile Service Computing in IoT Scenarios",
+        "authors": "Mariano Finochietto, Gabriel Eggly, Rodrigo Santos, Javier Orozco, Sergio Ochoa, Roc Meseguer",
+        "year": "2019",
+        "desc": "SENSORS; Lugar: Basel; Año: 2019 vol. 19",
+        "authors_ref": ["geggly", "rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1901": {
+        "title": "Scheduling Mandatory-Optional Real-Time Tasks in Homogeneous Multi-Core Systems with Energy Constraints Using Bio-Inspired Meta-Heuristics",
+        "authors": "Matías Micheletto, Rodrigo Santos, Javier Orozco",
+        "year": "2019",
+        "desc": "JOURNAL OF UNIVERSAL COMPUTER SCIENCE; Lugar: Graz; vol. 25 p. 390 - 417",
+        "authors_ref": ["mmicheletto", "rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1804": {
+        "title": "Communication channel occupation and congestion in wireless sensor networks",
+        "authors": "P. D. Godoy, Ricardo Cayssials, R. L García Garino",
+        "year": "2018",
+        "desc": "Computers and Electrical Engineering, vol 72, pág. 846-858",
+        "authors_ref": ["rcayssials"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1803": {
+        "title": "Providing real-time message delivery on opportunistic networks",
+        "authors": "Rodrigo Santos, Javier Orozco, Sergio Ochoa, Roc Meseguer, Daniel Mosse",
+        "year": "2018",
+        "desc": "IEEE Access; Lugar: Nueva York; vol. 6 p. 40696 - 40712",
+        "authors_ref": ["rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1802": {
+        "title": "Emitter/receiver piezoelectric films coupled to flow-batch analyzer for acoustic determination of free glycerol in biodiesel without chemicals/external pretreatment",
+        "authors": "Gabriel Eggly, Matías Blackhall, Adriano de Araujo Gomes, Rodrigo Santos, Mario Cesar Uglino de Araujo, Marcelo Pistonesi",
+        "year": "2018",
+        "desc": "MICROCHEMICAL JOURNAL, vol. 138 p. 296 - 302",
+        "authors_ref": ["rsantos", "geggly"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1801": {
+        "title": "Flying Real-Time Network to Coordinate Disaster Relief Activities in Urban Areas",
+        "authors": "Matías Micheletto, Vinicius Petrucci, Rodrigo Santos, Javier Orozco, Daniel Mosse, Sergio Ochoa, Roc Meseguer",
+        "year": "2018",
+        "desc": "Sensors; Place: Besel;",
+        "authors_ref": ["mmicheletto", "rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1705": {
+        "title": "Embedded Flow-Batch System with Electrochemical Detection for the Determination of Lead in Propolis Samples",
+        "authors": "Gabriel Eggly, Martín Nabaes, María Susana Dinezio, María Eugenia Centurión, Rodrigo Santos, Marcelo Pistonesi",
+        "year": "2017",
+        "desc": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL ANALYTICAL CHEMISTRY; Lugar: Londres;",
+        "authors_ref": ["geggly", "rsantos"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1704": {
+        "title": "Supporting Real-Time Message Delivery in Disaster Relief Efforts: An Analytical Approach",
+        "authors": "Rodrigo Santos, Javier Orozco, Sergio Ochoa, Daniel Mosse",
+        "year": "2017",
+        "desc": "Lecture Notes in Computer Science;",
+        "authors_ref": ["rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1703": {
+        "title": "Flying Real-Time Network for Disaster Assistance",
+        "authors": ", Javier Orozco, Daniel Mosse, Vinicius Petrucci, Serigio, Ochoa, Roc Meseguer",
+        "year": "2017",
+        "desc": "LECTURE NOTES IN COMPUTER SCIENCE",
+        "authors_ref": ["rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ04": {
+        "title": "Energy Aware Scheduling Mandatory/Optional Tasks in Multicore Real Time Systems",
+        "authors": "Mendez-Diaz, Javier Orozoco, Rodrigo Santos, Paula Zabala",
+        "year": "2017",
+        "desc": "INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH; Place: New Jersey; Year: 2016.",
+        "authors_ref": ["jorozco", "rsantos"],
+        "type": "journal",
+        "links": []
+    },
+    "publ1701": {
+        "title": "A Stochastic Approach for Modeling Message Dissemination in Opportunistic Networks",
+        "authors": "Javier Orozco; Rodrigo Santos; Sergio F. Ochoa; Roc Meseguer",
+        "year": "2017",
+        "desc": "WIRELESS PERSONAL COMMUNICATIONS; Place: Berlin;",
+        "authors_ref": ["rsantos", "jorozco"],
+        "type": "journal",
+        "links": []
+    },
+    "publ01": {
+        "title": "A MAC Protocol to Support Monitoring of Underwater Spaces",
+        "authors": "Rodrigo Santos, Javier Orozoco, Sergio Ochoa, Roc Meseguer, Gabriel Eggly, Marcelo Pistonesi",
+        "year": "2016",
+        "desc": "SENSORS; Place: Basel; Year: 2016 vol. 16 p. 984 - 1003.",
+        "authors_ref": ["rsantos", "jorozco", "geggly"],
+        "type": "journal",
+        "links": []
+    },
+    "publ02": {
+        "title": "Design and Implementation of a Witness Unit for Opportunistic Routing in Tsunami Alert Scenarios",
+        "authors": "Rodrigo Santos, Daniel Mossé, Taieb Znati, Louise Comfort",
+        "year": "2015",
+        "desc": "SAFETY SCIENCE; Place: Amsterdam; Year: 2015.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ03": {
+        "title": "MASU: A Framework that Supports Distributed Pervasive Data Sensing",
+        "authors": "Esunly Medina, David López, Sergio Ochoa, Rodrigo Santos",
+        "year": "2016",
+        "desc": "SENSORS; Place: Basel; Year: 2016 vol. 16 p. 1062 - 1089.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ05": {
+        "title": "A clinically assisted collaborative system architecture for preventing falls in elderly people",
+        "authors": "J. Orozco, R. Santos, S. Ochoa, L. Ordinez, R. Meseguer, N. Baloian",
+        "year": "2014",
+        "desc": "LECTURE NOTES IN COMPUTER SCIENCE; 2014.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ06": {
+        "title": "Human-centric Wireless Sensor Networks to Improve Information Availability During Urban Search and Rescue Activities",
+        "authors": "Sergio Ochoa, Rodrigo Santos",
+        "year": "2015",
+        "desc": "INFORMATION FUSION, 2015 vol. 22 p. 71 - 84.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ07": {
+        "title": "Computational Cost Reduction for Real-Time Schedulability Tests Algorithms",
+        "authors": "Jose M. Urriza; Francisco E. Paez; Javier D. Orozco; Ricardo Casyssials",
+        "year": "2015",
+        "desc": "IEEE Latin America Transactions (Volume:13, Issue: 12 ), pp: 3714-3723, ISSN: 1548-0992, DOI: 10.1109/TLA.2015.7404899, Dec. 2015.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ08": {
+        "title": "A MAC protocol for Underwater Sensors Networks",
+        "authors": "Rodrigo Santos, Javier Orozco, Sergio Ochoa, Roc Meseguer, Gabriel Eggly",
+        "year": "2015",
+        "desc": "LECTURE NOTES IN COMPUTER SCIENCE; Year: 2015 vol. 9454 p. 394 - 406.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ09": {
+        "title": "Using a History-Based Approach to Predict Topology Control Information in Mobile Ad Hoc Net-works",
+        "authors": "P. Millan, C. Molina, R. Meseguer, S. Ochoa, R. Santos",
+        "year": "2014",
+        "desc": "LECTURE NOTES IN COMPUTER SCIENCE; 2014 vol. 8729 p. 237 - 249.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ10": {
+        "title": "Modeling IoT-Based Solutions Using Human-Centric Wireless Sensor Networks",
+        "authors": "A. Monares, S. Ochoa, R. Santos, J. Orozco, R. Meseguer",
+        "year": "2014",
+        "desc": "SENSORS.Basel: MOLECULAR DIVERSITY PRESERVATION INTERNATIONAL-MDPI. 2014 vol. n. p - . issn 1424-8220.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ11": {
+        "title": "Energy-Aware Topology Control Strategy for Human-Centric Wireless Sensor Networks",
+        "authors": "Roc Meseguer, C. Molina, S. Ochoa, R. Santos",
+        "year": "2014",
+        "desc": "SENSORS.Basel: MOLECULAR DIVERSITY PRESERVATION INTERNATIONAL-MDPI. 2014 vol.14 n 2. p2619 - 2643. issn 1424-8220.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ12": {
+        "title": "Real-Time Scheduling Architecture for Embedded Systems",
+        "authors": "Ricardo Cayssials, Edgardo Ferro, Jose M. Urriza and Eduardo Boemo",
+        "year": "2013",
+        "desc": "International Review on Computers and Software (IRECOS), August 2013, Vol. 8 Nro. 8, Print ISSN 1828-6003, Abstracting and Indexing Information: Cambridge Scientific Abstracts (CSA/CIG), Academic Search Complete (EBSCO Information Services), COMPENDEX - Elsevier Bibliographic Database, Copernicus.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ13": {
+        "title": "The Internet of Things to Support Urban Incident Responses",
+        "authors": "R. Santos, J. Orozco, S. Ochoa, R. Meseguer",
+        "year": "2013",
+        "desc": "LECTURE NOTES IN COMPUTER SCIENCE.: SPRINGER. 2013 vol.8276 n. p286 - 293. issn 0302-9743.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ14": {
+        "title": "Instante Critico con Jitter: un estado poco probable",
+        "authors": "Francisco Paez, Jose Urriza, Mariano Ferrari, Ricardo Cayssials y Javier Orozco",
+        "year": "2013",
+        "desc": "Iberoamerican Journal of Industrial Engineering, ISSNe 2175-8018, Florianopolis, SC, Brasil, v.5, n.10, p130-141, 2013.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ15": {
+        "title": "On-line schedulability tests for adaptive reservations in fixed priority scheduling",
+        "authors": "R. Santos, G. Lipari,E. Bini, T. Cuccinota",
+        "year": "2012",
+        "desc": "REAL-TIME SYSTEMS, Vol. 48, Issue 5, pp. 601-634. September 2012.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ16": {
+        "title": "A Real-Time Analysis Approach in Opportunistic Networks",
+        "authors": "R. Santos, J. Orozco, S. F. Ochoa",
+        "year": "2011",
+        "desc": "ACM SIGBED Review.: ACM. 2011 vol.8 n. 3. p1 - 4. issn 1551-3688.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ17": {
+        "title": "Time is not Enough: Dealing with Behavior in Real-Time Systems",
+        "authors": "L. Ordinez, D. Donari, R. Santos, J. Orozco",
+        "year": "2011",
+        "desc": "JOURNAL OF UNIVERSAL COMPUTER SCIENCE.: GRAZ UNIV TECHNOLGOY,vol.17 n 11. p1572 - 1604, 2011.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ18": {
+        "title": "Preface",
+        "authors": "E. Leiss, R. Santos.",
+        "year": "2011",
+        "desc": "Electronic Notes in Theoretical Computer Science.: Elsevier. 2011 vol.n. p1 - 4. issn 1571-0661, 2011.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ19": {
+        "title": "Low Cost Slack Stealing Method for RM/DM",
+        "authors": "Jose M. Urriza, Francisco E. Paez, Ricardo Cayssials, Javier D. Orozco, Lucas S. Schorb",
+        "year": "2010",
+        "desc": "International Review on Computers and Software - November 2010, Vol. 5 Nro 6, Print ISSN: 1828-6003, Abstracting and Indexing Information: Cambridge Scientific Abstracts (CSA/CIG), Academic Search Complete (EBSCO Information Services), COMPENDEX - Elsevier Bibliographic Database, Copernicus.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ20": {
+        "title": "On the Feasibility of Early Detection of Environmental Events through Wireless Sensor Networks and the Use of 802.15.4 and GPRS",
+        "authors": "J. Santos, R. Santos, J. Orozco",
+        "year": "2009",
+        "desc": "Lecture Notes in Computer Science,2009.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ21": {
+        "title": "ICTs in Latinamerica: An overview",
+        "authors": "R. Santos",
+        "year": "2009",
+        "desc": "CLEI Electronic Journal, 12 (2), 1-16, 2009.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ22": {
+        "title": "Reduced Computational cost in the Calculation of Worst Case Response Time for Real-Time Systems",
+        "authors": "J. Urriza, L. Schorb, J. Orozco, R. Cayssials",
+        "year": "2009",
+        "desc": "Journal of Computer Science & Technology, ISSN 1666-6038, Vol. 9, Nro 2, Octuber 2009.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ23": {
+        "title": "Improving the schedulability of soft real-time open dynamic systems: The inheritor is actually a debtor",
+        "authors": "Rodrigo Santos, Giuseppe Lipari and Jorge Santos",
+        "year": "2008",
+        "desc": "Journal of Systems and Software, Elsevier, 81(7) (2008), 1093-1104.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ24": {
+        "title": "uRT51: An Embedded Real-Time processor implemented on FPGA devices",
+        "authors": "R. Cayssials, M. Duval, E. Ferro and O. Alimenti",
+        "year": "2007",
+        "desc": "Latin American Applied Research, ISSN 0327-0793, Indexada SCI, Vol.37, Nro.1, pp.:35-40, 2007.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ25": {
+        "title": "Nuclear Supplier Upgrades Controls Increasing Efficiency",
+        "authors": "E. Ferro, M. Bolino, R. Carzoglio",
+        "year": "2006",
+        "desc": "Control Engineering, Inside Process, Elsevier Reed., pp. IP1-IP4, 2006.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ26": {
+        "title": "A Least Upper Bound on the Fault-Tolerance of Real-Time Systems",
+        "authors": "R. Santos, J. Santos, J. Orozco.",
+        "year": "2005",
+        "desc": "Journal of Systems and Software, Elsevier, 78 (2005) 47-55.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ27": {
+        "title": "Hard real-time systems with stochastic execution times: Deterministic and probabilistic guarantees",
+        "authors": "R. M. Santos, J. Santos and J. Orozco",
+        "year": "2005",
+        "desc": "International Journal of Computers and Applications, 27, 2 (2005), 57-62.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ28": {
+        "title": "EXPERION PKS CONVERSION FROM HONEYWELL TPS AT ENSI INDUSTRIAL HEAVY WATER PLANT",
+        "authors": "L. Dell'Orfano, E. Ferro, M. Bolino, D. Lazcano.",
+        "year": "2005",
+        "desc": "Proc Honeywell User Group, Honeywell Press, Arizona, USA, October 2005.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ29": {
+        "title": "New methods for redistributing slack time in real-time systems: applications and comparative evaluations",
+        "authors": "R. M. Santos, J. Urriza, J. Santos and J. Orozco",
+        "year": "2004",
+        "desc": "Journal of Systems and Software, 69 (2004) 115-128.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ30": {
+        "title": "Scheduling Precedence Constrained Tasks in Open Dynamic Systems",
+        "authors": "Rodrigo Santos and Giuseppe Lipari",
+        "year": "2003",
+        "desc": "Proc. WiP Session 15th Euromicro Conference on Real Time Systems, Porto, Portugal, 2003.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ31": {
+        "title": "Evolutionary Computation Tuned by Fuzzy Logic for the Assignment of Hard Real-Time Tasks in MIMD NUMA Parallel Architectures",
+        "authors": "E. Ferro, J. Santos, J. Orozco, R. Cayssials",
+        "year": "2002",
+        "desc": "Proceedings IASTED International Conference on Artificial Intelligence and Applications, pp. 307-311, Malaga, Spain, July 9-12, 2002.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ32": {
+        "title": "Heuristic use of singularities for on-line scheduling of real-time mandatory/reward based systems",
+        "authors": "R. M. Santos, J. Urriza, J. Santos and J. Orozco",
+        "year": "2002",
+        "desc": "Proc 14th Euromicro Conference on Real-Time Systems, pp. 103-110, Viena, 2002.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ33": {
+        "title": "Guaranteed On-Line Weakly-Hard Real-Time Systems",
+        "authors": "G. Bernat and R. Cayssials",
+        "year": "2001",
+        "desc": "Proceedings 22nd Real-Time Systems Symposium, pp. 25-35, London, England, 3-6 December, 2001.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": [{
+                "url": "http://www.diec.uns.edu.ar/rts/papers/Onweakly.ps",
+                "text": "[PS]"
+            },
+            {
+                "url": "http://www.diec.uns.edu.ar/rts/papers/Onweakly.pdf",
+                "text": "[PDF]"
+            }
+        ]
+    },
+    "publ34": {
+        "title": "Hybrid rate-monotonic/reward based scheduling of real-time embedded systems",
+        "authors": "J. Orozco, R. M. Santos y J. Santos",
+        "year": "2001",
+        "desc": "Proc IEEE Real-Time Embedded Systems Workshop, London, 2001.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ35": {
+        "title": "Real-Time Assignments: Genetic List Generation and Heuristic Mapping",
+        "authors": "E. Ferro, J. Santos, R. Cayssials and J. Orozco",
+        "year": "2001",
+        "desc": "Proc 13th International Conference on Parallel and Distrinbuted Computing and Systems, pp. 543/48, Anaheim, California, USA, 2001.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ36": {
+        "title": "Taking advantage of priority inversions generated to improve the processing of non-hard real-time tasks in mixed systems",
+        "authors": "J.Orozco, R. Santos, J. Santos and R. Cayssials",
+        "year": "2000",
+        "desc": "Proc WiP Session IEEE Real-Time Systems Symposium, pp. 13-16, Orlando, 2000.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ37": {
+        "title": "Mixing real and non real-time processing: Priority inversions are not so bad after all",
+        "authors": "J. Orozco, J. Santos, R. Cayssials and E. Ferro",
+        "year": "2000",
+        "desc": "Proc. WiP and Industrial Experience Session 12th Euromicro Conference on Real-Time Systems, pp. 7-10, Stockholm, 2000.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ38": {
+        "title": "Scheduling Heterogeneous Multimedia Serves: Different QoS for Hard, Soft and Non real-Time Clients",
+        "authors": "R. M. Santos, J. Santos and J. Orozco",
+        "year": "2000",
+        "desc": "Proc. 12th Euromicro Conference on Real-Time Systems, IEEE Computer Society Press, pp. 247-253, Stockholm, 2000.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ39": {
+        "title": "Real-Time Multimedia Standards in DQDB",
+        "authors": "R. M. Santos, J. Santos, J. Orozco and M. Zambon",
+        "year": "2000",
+        "desc": "Journal of Systems Architecture, 46, pp. 601-605, 2000.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ40": {
+        "title": "Rate monotonic scheduling of real-time control systems with the minimum number of priority levels",
+        "authors": "R. Cayssials, J. Orozco, J. Santos and R. Santos",
+        "year": "1999",
+        "desc": "Proc. 11th Euromicro Conference on Real-Time Systems, IEEE Computer Society Press, pp. 54-59, York, UK, 1999.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ41": {
+        "title": "Fixed-Priority scheduling in real-time multiprogramming environments: Liu & Layland revisited",
+        "authors": "R. Cayssials, J. Santos, J. Orozco and E. Ferro",
+        "year": "1999",
+        "desc": "Proc. WiP Session 11th Euromicro Conference on Real-Time Systems, pp. 45-48, York, UK, 1999.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ42": {
+        "title": "On the scheduling of real-time multihop packet-switching networks",
+        "authors": "J.Orozco, J.Santos, R.Cayssials and E. Ferro",
+        "year": "1998",
+        "desc": "Proc. 10th Euromicro Workshop on Real-Time Systems, IEEE Computer Society Press, Berlin, 1998.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ43": {
+        "title": "Precedence constraints in hard real-time distributed systems",
+        "authors": "J.Orozco, J.Santos, R.Cayssials and E.Ferro",
+        "year": "1997",
+        "desc": "Proc.3d IEEE Conference on the Engineering of Complex Computer Systems, IEEE Computer Society Press, Como, Italy, pp. 33-38, 1997.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ44": {
+        "title": "A heuristic approach to the multitask-multiprocessor assignement problem using the Empty-Slots method and Rate Monotonic scheduling",
+        "authors": "J.Santos, E. Ferro, J.Orozco and R.Cayssials",
+        "year": "1997",
+        "desc": "Real-Time Systems Journal, 13, 2, pp.167-200, 1997.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ45": {
+        "title": "802.4 Rate Monotonic scheduling in hard real-time environments: Setting the medium access control parameters",
+        "authors": "J. Orozco, R. Cayssials, J. Santos and E. Ferro",
+        "year": "1997",
+        "desc": "Information Processing Letters (Elsevier), 62, pp. 47-55, 1997.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ46": {
+        "title": "Is the DQDB priority mechanism good enough for the network intended applications?",
+        "authors": "R. Santos, M. Zambón, J. Santos and J. Orozco",
+        "year": "1997",
+        "desc": "Proc. 9th Euromicro Workshop on Real-Time Systems, IEEE Computer Sociert Press, Toledo, España, pp. 11-17, 1997.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ47": {
+        "title": "Design of a learning fuzzy production system to solve an NP-hard real-time assignment problem",
+        "authors": "J. Orozco, R. Cayssials, J. Santos and E. Ferro",
+        "year": "1996",
+        "desc": "Proc. 8th Euromicro Workshop on Real-Time Systems, IEEE Computer Society Press, pp. 146-150, L 'Aquila, Italia, 1996.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ48": {
+        "title": "Tuning parameters to improve a heuristic method: More and better solutions to an NP-hard real-time problem",
+        "authors": "E. Ferro, J. Santos, J. Orozco y R. Cayssials",
+        "year": "1996",
+        "desc": "Proc. 8th Euromicro Workshop on Real-Time Systems, IEEE Computer Society Press, pp. 47-51, L'Aquila, Italia, 1996.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ49": {
+        "title": "On the Priority Mechanism of 802.4 in Hard Real-Time Factory Communications",
+        "authors": "J. Santos and J. Orozco",
+        "year": "1994",
+        "desc": "Proc. IEEE International Symposium on Industrial Electronics, IEEE, pp. 281-285, 1994.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ50": {
+        "title": "The 802.5 Priority Mechanism in RMS Hard Real-Time Applications",
+        "authors": "J. Santos, M. L. Gastaminza, J. Orozco y C. Matrángolo",
+        "year": "1994",
+        "desc": "Computer Communications (Butterworth-Heinemann), 17, 6, pp. 439-442, 1994.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ51": {
+        "title": "Rate Monotonic Scheduling in Hard Real-Time Systems",
+        "authors": "J. Santos y J.Orozco",
+        "year": "1993",
+        "desc": "Information Processing Letters (Elsevier), 48, 1, pp 39-45, Oct. 1993.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ52": {
+        "title": "Priorities and protocols in hard real-time LANs",
+        "authors": "J. Santos, M. Gastaminza, J. Orozco, D. Picardi y O. Alimenti",
+        "year": "1991",
+        "desc": "Computer Communications (Butterworth-Heinemann), Nov. 1991.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "publ53": {
+        "title": "Performance evaluation of standard LAN protocols",
+        "authors": "J. Santos, J. Orozco and O. Alimenti",
+        "year": "1989",
+        "desc": "Proc. INFOCOM '89, IEEE Computer Society Press, pp 1020=1028, Ottawa, 1989.",
+        "authors_ref": [],
+        "type": "journal",
+        "links": []
+    },
+    "ir01": {
+        "title": "Flying Real-Time Network for Disaster Assistance",
+        "authors": " Rodrigo Santos, Javier Orozco, Vinicius Petrucci, Daniel Mosse",
+        "year": "2016",
+        "desc": "",
+        "authors_ref": [],
+        "type": "internal_report",
+        "links": []
+    },
+    "ir02": {
+        "title": "DEBARE: A REQUIREMENTS-BASED METHOD FOR DESIGNING SMALL CYBER-PHYSICAL SYSTEMS",
+        "authors": "Leo Ordinez,Rodrigo Santos, Gabriel Eggly",
+        "year": "2015",
+        "desc": "",
+        "authors_ref": [],
+        "type": "internal_report",
+        "links": []
+    },
+    "ir03": {
+        "title": "A Stochastic Approach for Modeling Message Dissemination in Opportunistic Networks",
+        "authors": " Javier Orozco, Rodrigo Santos, Sergio Ochoa, Roc Meseguer,",
+        "year": "2016",
+        "desc": "",
+        "authors_ref": [],
+        "type": "internal_report",
+        "links": []
+    },
+    "mt01": {
+        "title": "Ingeniería de Sistemas de Tiempo Real: Monitoreo",
+        "authors": "Omar Alimenti",
+        "year": "1999",
+        "desc": "Supervised by Jorge Santos.",
+        "authors_ref": [],
+        "type": "master_thesis",
+        "links": []
+    },
+    "mt02": {
+        "title": "Arquitecturas Flexibles para Sistemas de Control de Tiempo Real",
+        "authors": "Martín Leandro Duval",
+        "year": "2012",
+        "desc": "Supervised by Ricardo Cayssials and Javier Orozco",
+        "authors_ref": [],
+        "type": "master_thesis",
+        "links": []
+    },
+    "mt03": {
+        "title": "Redes de Control en Ambientes Industriales: Plataforma de evaluación de sistemas distribuidos en tiempo real",
+        "authors": "Adriana Michelis",
+        "year": "2015",
+        "desc": "Supervised by Ricardo Cayssials and Edgardo Ferro",
+        "authors_ref": [],
+        "type": "master_thesis",
+        "links": []
+    },
+    "dt01": {
+        "title": "Factibilidad de Sistemas de Tiempo Real",
+        "authors": "Javier Orozco",
+        "year": "1998",
+        "desc": "Supervised by Jorge Santos",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt02": {
+        "title": "Análisis de Sistemas de Tiempo Real Duro con Constricciones de Precedencia",
+        "authors": "Ricardo Cayssials",
+        "year": "1999",
+        "desc": "Supervised by Jorge Santos",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt03": {
+        "title": "Asignación y Diagramabilidad de Sistemas Distribuídos de Tiempo Real Duro",
+        "authors": "Edgardo Ferro",
+        "year": "1999",
+        "desc": "Supervised by Jorge Santos",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt04": {
+        "title": "Aplicaciones de Tiempo Real: Multimedia, Redes, Servidores",
+        "authors": "Rodrigo Santos",
+        "year": "2001",
+        "desc": "Supervised in the final stages by Javier Orozco",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt05": {
+        "title": "Factibilidad de Sistemas de Tiempo Real con Requerimientos Heterogéneos",
+        "authors": "José Manuel Urriza",
+        "year": "2008",
+        "desc": "Supervised by Javier Orozco",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt06": {
+        "title": "Desarrollo de un framework para el diseño de sistemas de tiempo real",
+        "authors": "Leonardo Ordinez",
+        "year": "2010",
+        "desc": "Supervised by Rodrigo Santos and Javier Orozco",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt07": {
+        "title": "Desarrollo de un Sistema Operativo de Tiempo Real para Sistemas Embebidos",
+        "authors": "David Donari",
+        "year": "2015",
+        "desc": "Supervised by Rodrigo Santos and Javier Orozco",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "dt08": {
+        "title": "Estudio, Desarrollo e Implementación de Sistemas Embebidos Flow-Batch para el Análisis de Muestras Petroquímicas, Medioambientales y Alimentos",
+        "authors": "Gabriel Eggly",
+        "year": "2018",
+        "desc": "Supervised by Rodrigo Santos and Marcelo Pistonesi",
+        "authors_ref": [],
+        "type": "phd_thesis",
+        "links": []
+    },
+    "pro01": {
+        "title": "Descripción, especificación e implementación de un controlador de domótica",
+        "authors": "",
+        "year": "",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro02": {
+        "title": "Diagramabilidad de Sistemas de Tiempo Real (2000-2003)",
+        "authors": "",
+        "year": "2000",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro03": {
+        "title": "Diseño y especificación de un planificador de tiempo real dinámico con asignación de tareas aperiódicas RMS-A (2000-2003).",
+        "authors": "",
+        "year": "2000",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro04": {
+        "title": "Algoritmos Evolutivos y sus aplicaciones al problema de asignación de tareas en sistemas multitarea/multiprocesador en sistemas de tiempo real duro.(1999-2002)",
+        "authors": "",
+        "year": "1999",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro05": {
+        "title": "Diagramabilidad de Sistemas de Tiempo Real.(24/K032)(2004)",
+        "authors": "",
+        "year": "2004",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro06": {
+        "title": "Sistemas de Tiempo Real con requerimientos heterogéneos.(24/K031) (2004-2009).",
+        "authors": "",
+        "year": "2004",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro07": {
+        "title": "Integración de requerimientos hardware/software en sistemas embebidos de tiempo real. CONICET (PIP) (2005-2006).",
+        "authors": "",
+        "year": "2005",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro08": {
+        "title": "Planificación de sistemas de tiempo real con Calidad de Servicio y control de Consumo de energía. Universidad Nacional del Sur, PGI (2006-2008)",
+        "authors": "",
+        "year": "2006",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro09": {
+        "title": "Planificación de sistemas de tiempo real con Control de Calidad de Servicio. ANPCyT, PICT 2007.",
+        "authors": "",
+        "year": "2007",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro10": {
+        "title": "Planificación adaptiva jerárquica de sistemas de tiempo real con requerimientos dinámicos de calidad de servicio y consumo de energía. CONICET (PIP) (2009-2011).",
+        "authors": "",
+        "year": "2009",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "pro11": {
+        "title": "Modelado, análisis e implementación de sistemas embebidos con restricciones temporales y requerimientos heterogéneos en ambientes distribuídos, PIP 2012-2014.",
+        "authors": "",
+        "year": "2012",
+        "desc": "",
+        "authors_ref": [],
+        "type": "project",
+        "links": []
+    },
+    "transf01": {
+        "title": "Desarrollo de un registrador de locomotora. FERRO EXPRESO PAMPEANO",
+        "authors": "LEONARDO ORDINEZ; RODRIGO SANTOS; GABRIEL M. EGGLY.",
+        "year": "2014",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. 2014-10-01 - 2016-10-01.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf02": {
+        "title": "Driver piezoeléctrico aplicado a la degradación de propóleos",
+        "authors": "FEDERICO FUENTES; RODRIGO SANTOS; SUSANA DINEZIO; FERMIN FUEYO; MARIA EUGENIA CENTURION",
+        "year": "2015",
+        "desc": "Máquina, equipo, instrumento y/o herramienta o su/s componente/s. Electrónica. Alimentos. 2015-10-16.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf03": {
+        "title": "Desarrollo de un detector ultrasónico de bajo costo para la determinación de cloruro de potasio y cloruro de sodio en productos farmacéuticos",
+        "authors": "MATIAS BLACKHALL; GABRIEL M. EGGLY; RODRIGO SANTOS; MARCELO F. PISTONESI",
+        "year": "2015",
+        "desc": "Máquina, equipo, instrumento y/o herramienta o su/s componente/s. Electrónica. Qca.,Petroqca.y Carboqca. Ind.Farmaceutica. 2015-10-14.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf04": {
+        "title": "Desarrollo de un Potenciostato portátil para control de calidad en productos apícolas",
+        "authors": "MARTIN NABAES; GABRIEL M. EGGLY; RODRIGO SANTOS; MARCELO F. PISTONESI",
+        "year": "2015",
+        "desc": "Máquina, equipo, instrumento y/o herramienta o su/s componente/s. Electrónica. Alimentos. 2015-02-20.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf05": {
+        "title": "Sistema Flow-Batch/FIA para la determinación de Glicerol Libre en Biodiesel",
+        "authors": "MARCELO F. PISTONESI; GABRIEL M. EGGLY; RODRIGO SANTOS.",
+        "year": "2013",
+        "desc": "Máquina, equipo, instrumento y/o herramienta o su/s componente/s. Electrónica. Energia-Combustibles. 2013-10-26.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf06": {
+        "title": "Desarrollo de un registrador de fuerza en maquinaria agrígola. INTA ASCASUBI",
+        "authors": "MATIAS MICHELETTO; GABRIEL M. EGGLY; RODRIGO SANTOS.",
+        "year": "2015",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área. Pesos 7000. 2015-10-01 - 2016-10-01.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf07": {
+        "title": "Aplicación para Calcular PHP en Cetoacidosis Diabética (Android)",
+        "authors": "Marianela Debendectis; Mario Marzialetti, Gabriel Eggly, Rodrigo Santos",
+        "year": "2018",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf08": {
+        "title": "Sensor Multiparamétrico para cursos y espejos de agua.",
+        "authors": "Carlos Grassi, Guillermo Schneider, Gabriel Eggly, Marcelo Pistonesi, Rodrigo Santos",
+        "year": "2017",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf09": {
+        "title": "DISEÑO E IMPLEMENTACIÓN DE UNA RED INALÁMBRICA  DE SENSORES DE MONÓXIDO DE CARBONO",
+        "authors": "Emanuel Córdoba, Juan Ignacio Ruiz Díaz, Diana Sanchez, Gabriel Eggly",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf17": {
+        "title": "EYE SAY - Interfaz de comunicación para pacientes que padecen afasia a partir del movimiento de sus ojos",
+        "authors": "Ezequiel Halberg, Franco Vela, Diana Sanchez, Gabriel Eggly, Claudio Delrieux",
+        "year": "2017",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf10": {
+        "title": "ABRAZAR -  PROTOTIPO PRÓTESIS ELECTROMECÁNICA CODO, ANTEBRAZO Y MANO",
+        "authors": "Federico de la Iglesia, Carlos Caseres, Diana Sanchez, Gabriel Eggly, Claudio Delrieux",
+        "year": "2018",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf11": {
+        "title": "CONTROL Y MONITOREO DE HORNOS EN LA INDUSTRIA CERÁMICA",
+        "authors": "Waldemar Carrino, Diana Sanchez, Gabriel Eggly",
+        "year": "2018",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf12": {
+        "title": "APLICACION PARA ASISTENCIA EN REANIMACION CARDIOPULMONAR",
+        "authors": "Martín Carrizo, Diana Sanchez, Gabriel Eggly",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf13": {
+        "title": "ABASTECIMIENTO DE ENERGÍA ELÉCTRICA EN BARRIOS CARENCIADOS DE LA CIUDAD DE BAHÍA BLANCA",
+        "authors": "Camila L. Oyón, Diana Sanchez, Julio Perez",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf14": {
+        "title": "REPLIK-AR; APP PARA ESCANEO 3D",
+        "authors": "Oscar Molina, Diana Sanchez, Claudio Delrieux, Gabriel Eggly",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf15": {
+        "title": "UPGRADE SISTEMA DE CONTROL INDUSTRIAL",
+        "authors": "Sebastián Aller, Diana Sanchez, Gabriel Eggly",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    },
+    "transf16": {
+        "title": "P.A.I.I.S.A: Paquete de automatización e información integral de soluciones agropecuarias.",
+        "authors": "Matías Timi, Franco Tronelli, Gabriel Eggly, Rodrigo Santos",
+        "year": "2019",
+        "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. Responsable del equipo y/o área.",
+        "authors_ref": [],
+        "type": "transfers",
+        "links": []
+    }
+
+}
