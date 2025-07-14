@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   AppBar,
   Toolbar,
@@ -14,7 +15,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link, useLocation } from "react-router-dom";
-import { useState } from "react";
+import logo from "../../assets/logo_gray.png";
 
 const Navbar = ({ views }) => {
   const location = useLocation();
@@ -27,7 +28,7 @@ const Navbar = ({ views }) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        RT Systems Group
+        RTS Group
       </Typography>
       <Divider />
       <List>
@@ -55,22 +56,23 @@ const Navbar = ({ views }) => {
         sx={{ borderRadius: 1 }}>
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
-            <Typography
-              variant="h6"
-              sx={{ fontWeight: 700, color: "primary.main" }}>
-              Real Time Systems Research Group
-            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <img src={logo} alt="RTS Group Logo" style={{ height: 40 }} />
+              <Typography
+                variant="h6"
+                sx={{ fontWeight: 700, color: "primary.main" }}>
+                Real Time Systems Research Group
+              </Typography>
+            </Box>
 
-            <Box
-              sx={{display: { xs: "none", md: "flex" },gap: 1}}>
+            <Box sx={{display: { xs: "none", md: "flex" },gap: 1}}>
               {views.map((view) => (
                 <Button
                   key={view.path}
                   component={Link}
                   to={view.path}
                   variant={location.pathname === view.path ? "contained" : "text"}
-                  color="primary"
-                  sx={{ borderRadius: 2 }}>
+                  color="primary">
                   {view.text}
                 </Button>
               ))}

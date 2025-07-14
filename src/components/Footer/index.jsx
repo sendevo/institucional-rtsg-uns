@@ -8,7 +8,7 @@ const Footer = () => (
       width: "100%",
       py: 1,
       mt: 1,
-      mb: 2,
+      mb: 1,
       color: "primary.main",
       backgroundColor: "background.default",
       position: "relative",
@@ -17,8 +17,7 @@ const Footer = () => (
       alignItems: "center",
       justifyContent: "center",
       bottom: 0
-    }}
-  >
+    }}>
     <Container maxWidth="lg">
       <Typography align="center">&copy; {new Date().getFullYear()} - Real Time and Embedded Systems Research Group</Typography>
     </Container>

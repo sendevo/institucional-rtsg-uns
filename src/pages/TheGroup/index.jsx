@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Box, Grid, Typography } from "@mui/material";
 import MemberCard from "../../components/MemberCard";
 import teamData from "../../assets/data/members.json";
-import { importTeamImages } from "../../utils/importImages";
+import { importImages } from "../../utils/importImages";
 
 const statusNames = {
     member: "Members",
@@ -14,7 +14,7 @@ const View = () => {
   const [images, setImages] = useState({});
 
   useEffect(() => {
-    setImages(importTeamImages());
+    setImages(importImages("members"));
   }, []);
 
   /* group members by "status" property */

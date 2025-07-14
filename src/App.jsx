@@ -5,26 +5,33 @@ import theme from "./theme";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import views from "./pages";
+import "./index.css";
 
-const constainerStyle = {
-  background: "linear-gradient(to right, #e0f7fa, #e1f5fe)",
-  py: 1,
-  mt: 1,
-  borderRadius: 1,
-  boxShadow: 3,
-  flexGrow: 1,
-  display: "flex",
-  flexDirection: "column"
+const styles = {
+  container: {
+    py: 1,
+    mt: 1,
+    borderRadius: 1,
+    boxShadow: 3,
+    flexGrow: 1,
+    display: "flex",
+    flexDirection: "column",
+    backgroundColor: "background.default",
+  },
+  main: {
+    display: "flex", 
+    flexDirection: "column", 
+    minHeight: "100vh"
+  }
 };
-
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Box sx={{display: "flex",flexDirection: "column",minHeight: "100vh"}}>
+        <Box sx={styles.main}>
           <Navbar views={views} />
-          <Box component="main" sx={constainerStyle}>
+          <Box component="main" sx={styles.container}>
             <Routes>
               {views.map((view, index) => (
                 <Route key={index} path={view.path} element={view.component} />
