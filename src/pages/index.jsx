@@ -1,6 +1,5 @@
 import Home from "./Home";
 import TheGroup from "./TheGroup";
-import Research from "./Research";
 import OurWork from "./OurWork";
 import ContactUs from "./ContactUs";
 
@@ -14,11 +13,6 @@ const views = [
         path: "/the-group",
         text: "The Group",
         component: <TheGroup />
-    },
-    {
-        path: "/research",
-        text: "Research",
-        component: <Research />
     },
     {
         path: "/our-work",

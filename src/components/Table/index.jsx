@@ -9,8 +9,8 @@ const headCells = [
   { id: "authors", label: "Authors" },
   { id: "year", label: "Year" },
   { id: "desc", label: "Journal" },
-  { id: "type", label: "Type" },
-  { id: "links", label: "Links", sortable: false },
+  { id: "type", label: "Type" }
+  //{ id: "links", label: "Links", sortable: false },
 ];
 
 const journalTypes = {
@@ -71,58 +71,40 @@ const PublicationTable = ({ data }) => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <TableContainer component={Paper}>
-        <Table size="small" sx={{ tableLayout: "fixed" }}>
-          <TableHead>
-            <TableRow>
-              {headCells.map((headCell) => (
-                <TableCell sx={{ width: "16.66%" }} key={headCell.id}>
-                  {headCell.sortable === false ? (
-                    headCell.label
-                  ) : (
-                    <TableSortLabel
-                      active={orderBy === headCell.id}
-                      direction={orderBy === headCell.id ? order : "asc"}
-                      onClick={() => handleSort(headCell.id)}>
-                      {headCell.label}
-                    </TableSortLabel>
-                  )}
-                </TableCell>
-              ))}
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {sortedData.map((row, idx) => (
-              <TableRow key={idx}>
-                <TableCell sx={{ width: "16.66%" }}>{row.title}</TableCell>
-                <TableCell sx={{ width: "16.66%" }}>{row.authors || <em>N/D</em>}</TableCell>
-                <TableCell sx={{ width: "16.66%" }}>{row.year || <em>N/D</em>}</TableCell>
-                <TableCell sx={{ width: "16.66%" }}>{row.desc || <em>N/D</em>}</TableCell>
-                <TableCell sx={{ width: "16.66%" }}>{journalTypes[row.type] || <em>N/D</em>}</TableCell>
-                <TableCell sx={{ width: "16.66%" }}>
-                  {row.links
-                  .filter((link) => typeof link === "string")
-                  .map((link, i) => (
-                    <Link
-                        key={i}
-                        href={link}
-                        target="_blank"
-                        rel="noopener"
-                        sx={{ 
-                            display: "block",
-                            maxWidth: "100%",
-                            whiteSpace: "nowrap",
-                            overflow: "hidden",
-                            textOverflow: "ellipsis" 
-                        }}>
-                        {link.split("/").pop()}
-                    </Link>
-                  ))}
-                </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
+      <TableContainer component={Paper} sx={{ overflowX: "auto" }}>
+        <Box sx={{ minWidth: "800px" /* or any width that fits your columns */ }}>
+            <Table size="small" sx={{ tableLayout: "fixed" }}>
+            <TableHead>
+                <TableRow>
+                {headCells.map((headCell) => (
+                    <TableCell key={headCell.id}>
+                    {headCell.sortable === false ? (
+                        headCell.label
+                    ) : (
+                        <TableSortLabel
+                        active={orderBy === headCell.id}
+                        direction={orderBy === headCell.id ? order : "asc"}
+                        onClick={() => handleSort(headCell.id)}>
+                        {headCell.label}
+                        </TableSortLabel>
+                    )}
+                    </TableCell>
+                ))}
+                </TableRow>
+            </TableHead>
+            <TableBody>
+                {sortedData.map((row, idx) => (
+                <TableRow key={idx}>
+                    <TableCell>{row.title}</TableCell>
+                    <TableCell>{row.authors || <em>N/D</em>}</TableCell>
+                    <TableCell>{row.year || <em>N/D</em>}</TableCell>
+                    <TableCell>{row.desc || <em>N/D</em>}</TableCell>
+                    <TableCell>{journalTypes[row.type] || <em>N/D</em>}</TableCell>
+                </TableRow>
+                ))}
+            </TableBody>
+            </Table>
+        </Box>
       </TableContainer>
     </Box>
   );
