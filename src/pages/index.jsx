@@ -1,6 +1,6 @@
 import Home from "./Home";
 import TheGroup from "./TheGroup";
-import OurWork from "./OurWork";
+import Research from "./Research";
 import ContactUs from "./ContactUs";
 
 const views = [
@@ -15,14 +15,19 @@ const views = [
         component: <TheGroup />
     },
     {
-        path: "/our-work",
-        text: "Our Work",
-        component: <OurWork />
+        path: "/research",
+        text: "Research",
+        component: <Research />
     },
     {
         path: "/contact-us",
         text: "Contact Us",
         component: <ContactUs />
+    },
+    {
+        path: "*",
+        text: "Page Not Found",
+        component: <Home />
     }
 ];
 

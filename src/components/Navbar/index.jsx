@@ -32,14 +32,16 @@ const Navbar = ({ views }) => {
       </Typography>
       <Divider />
       <List>
-        {views.map((view) => (
-          <ListItem
-            key={view.path}
-            component={Link}
-            to={view.path}
-            selected={location.pathname === view.path}>
-            <ListItemText primary={view.text} />
-          </ListItem>
+        {views
+          .filter(v => v.path !== "*") // Exclude catch-all route
+          .map((view) => (
+            <ListItem
+              key={view.path}
+              component={Link}
+              to={view.path}
+              selected={location.pathname === view.path}>
+              <ListItemText primary={view.text} />
+            </ListItem>
         ))}
       </List>
     </Box>
@@ -64,15 +66,17 @@ const Navbar = ({ views }) => {
             </Box>
 
             <Box sx={{display: { xs: "none", md: "flex" },gap: 1}}>
-              {views.map((view) => (
-                <Button
-                  key={view.path}
-                  component={Link}
-                  to={view.path}
-                  variant={location.pathname === view.path ? "contained" : "text"}
-                  color="primary">
-                  {view.text}
-                </Button>
+              {views
+                .filter(v => v.path !== "*") // Exclude catch-all route
+                .map((view) => (
+                  <Button
+                    key={view.path}
+                    component={Link}
+                    to={view.path}
+                    variant={location.pathname === view.path ? "contained" : "text"}
+                    color="primary">
+                    {view.text}
+                  </Button>
               ))}
             </Box>
 

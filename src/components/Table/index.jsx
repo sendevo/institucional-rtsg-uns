@@ -5,11 +5,11 @@ import {
 import { useState } from "react";
 
 const headCells = [
+  { id: "year", label: "Year" },
   { id: "title", label: "Title" },
   { id: "authors", label: "Authors" },
-  { id: "year", label: "Year" },
-  { id: "desc", label: "Journal" },
-  { id: "type", label: "Type" }
+  { id: "desc", label: "Desc." },
+  { id: "type", label: "Publication type" }
   //{ id: "links", label: "Links", sortable: false },
 ];
 
@@ -23,20 +23,20 @@ const journalTypes = {
     transfer: "Transfer"
 };
 
-function descendingComparator(a, b, orderBy) {
+const descendingComparator = (a, b, orderBy) => {
   if (b[orderBy] < a[orderBy]) return -1;
   if (b[orderBy] > a[orderBy]) return 1;
   return 0;
-}
+};
 
-function getComparator(order, orderBy) {
+const getComparator = (order, orderBy) => {
   return order === "desc"
     ? (a, b) => descendingComparator(a, b, orderBy)
     : (a, b) => -descendingComparator(a, b, orderBy);
-}
+};
 
 const PublicationTable = ({ data }) => {
-  const [order, setOrder] = useState("asc");
+  const [order, setOrder] = useState("desc");
   const [orderBy, setOrderBy] = useState("year");
   const [search, setSearch] = useState("");
 
@@ -67,27 +67,26 @@ const PublicationTable = ({ data }) => {
         variant="outlined"
         size="small"
         fullWidth
-        sx={{ mb: 2 }}
+        sx={{ mb: 2, backgroundColor: "background.paper", maxWidth: 400 }}
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
+        onChange={(e) => setSearch(e.target.value)}/>
       <TableContainer component={Paper} sx={{ overflowX: "auto" }}>
-        <Box sx={{ minWidth: "800px" /* or any width that fits your columns */ }}>
+        <Box sx={{ minWidth: "800px" }}>
             <Table size="small" sx={{ tableLayout: "fixed" }}>
             <TableHead>
                 <TableRow>
                 {headCells.map((headCell) => (
                     <TableCell key={headCell.id}>
-                    {headCell.sortable === false ? (
-                        headCell.label
-                    ) : (
+                    {!headCell.sortable ? 
+                        <b>{headCell.label}</b>
+                     : 
                         <TableSortLabel
-                        active={orderBy === headCell.id}
-                        direction={orderBy === headCell.id ? order : "asc"}
-                        onClick={() => handleSort(headCell.id)}>
-                        {headCell.label}
+                          active={orderBy === headCell.id}
+                          direction={orderBy === headCell.id ? order : "asc"}
+                          onClick={() => handleSort(headCell.id)}>
+                          {headCell.label}
                         </TableSortLabel>
-                    )}
+                    }
                     </TableCell>
                 ))}
                 </TableRow>
@@ -95,9 +94,9 @@ const PublicationTable = ({ data }) => {
             <TableBody>
                 {sortedData.map((row, idx) => (
                 <TableRow key={idx}>
+                    <TableCell>{row.year || <em>N/D</em>}</TableCell>
                     <TableCell>{row.title}</TableCell>
                     <TableCell>{row.authors || <em>N/D</em>}</TableCell>
-                    <TableCell>{row.year || <em>N/D</em>}</TableCell>
                     <TableCell>{row.desc || <em>N/D</em>}</TableCell>
                     <TableCell>{journalTypes[row.type] || <em>N/D</em>}</TableCell>
                 </TableRow>

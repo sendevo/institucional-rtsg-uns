@@ -5,7 +5,7 @@ import members from "../../assets/data/members.json";
 import { importImages } from "../../utils/importImages";
 
 const statusNames = {
-    member: "Members",
+    member: "Current members",
     related_member: "Related Members",
     past_member: "Past Members"
 };
@@ -14,9 +14,12 @@ const ModalContent = ({ member }) => (
   <Box sx={{ 
     position: 'absolute', 
     top: '50%', 
-    left: '50%', 
+    left: '50%',  
     transform: 'translate(-50%, -50%)', 
-    width: 400, 
+    width: 500, 
+    height: 'auto', 
+    maxHeight: '80vh', 
+    overflowY: 'auto',
     bgcolor: 'background.paper', 
     boxShadow: 24, 
     p: 4,
@@ -29,10 +32,14 @@ const ModalContent = ({ member }) => (
         {member.photo && (
           <img src={member.photo} alt={member.name} style={{ width: '100%', height: 'auto', marginTop: 16 }} />
         )}
+        <Typography variant="body2" color="textSecondary" sx={{ mt: 1 }}>
+          {member.contact?.email && `Email: ${member.contact.email}`}
+        </Typography>
+        <Typography variant="body1" sx={{ mt: 2 }}>{member.bio}</Typography>
       </>
     )}
   </Box>
-)
+);
 
 const View = () => {
   const [images, setImages] = useState({});
@@ -67,11 +74,11 @@ const View = () => {
   return (
     <Box sx={{ p: 4 }}>
       <Typography variant="h4" gutterBottom>Group Members</Typography>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} direction="column">
         {Object.keys(groupedMembers).map(status => (
           <Grid item xs={12} key={status}>
             <Typography variant="h5" gutterBottom>{statusNames[status]}</Typography>
-            <Grid container spacing={4} justifyContent={"center"} alignItems={"center"}>
+            <Grid container spacing={4} justifyContent={"center"} alignItems={"center"} xs={12}>
               {groupedMembers[status].map(member => (
                 <MemberCard key={member.id} member={member} onClick={e => handleOpen(member)} />
               ))}
