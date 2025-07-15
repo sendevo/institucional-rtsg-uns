@@ -5,8 +5,8 @@ import SlideShow from "../../components/SlideShow";
 const View = () => (
   <Box>
     <Container maxWidth="md" sx={{ textAlign: "center"}}>
-      <Typography variant="h4" gutterBottom sx={{ fontWeight: 600, mt:4 }}>
-        Real Time and Embedded Systems Research Group
+      <Typography variant="h4" gutterBottom sx={{ fontWeight: 500, mt:4 }}>
+        Real-Time and Embedded Systems Research Group
       </Typography>
     </Container>
 
@@ -24,7 +24,7 @@ const View = () => (
       </Typography>
     </Container>
 
-    <Container maxWidth="lg" sx={{ mt: 1 }}>
+    <Container maxWidth="lg" sx={{ mt: 2, mb: 3 }}>
       <Typography variant="h5" gutterBottom>
         Mission
       </Typography>

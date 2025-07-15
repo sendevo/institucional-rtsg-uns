@@ -19,7 +19,7 @@ const Footer = () => (
       bottom: 0
     }}>
     <Container maxWidth="lg">
-      <Typography align="center">&copy; {new Date().getFullYear()} - Real Time and Embedded Systems Research Group</Typography>
+      <Typography align="center">&copy; {new Date().getFullYear()} | Real-Time and Embedded Systems Research Group</Typography>
     </Container>
   </Box>
 );

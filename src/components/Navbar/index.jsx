@@ -61,13 +61,13 @@ const Navbar = ({ views }) => {
               <Typography
                 variant="h6"
                 sx={{ fontWeight: 700, color: "primary.main" }}>
-                Real Time Systems Research Group
+                Real-Time Systems Research Group
               </Typography>
             </Box>
 
-            <Box sx={{display: { xs: "none", md: "flex" },gap: 1}}>
+            <Box sx={{display: { xs: "none", md: "flex" }, gap: 1}}>
               {views
-                .filter(v => v.path !== "*") // Exclude catch-all route
+                .filter(v => v.path !== "*")
                 .map((view) => (
                   <Button
                     key={view.path}

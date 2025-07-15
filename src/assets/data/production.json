@@ -263,7 +263,7 @@
   },
   {
     "id": "publ04",
-    "title": "Energy Aware Scheduling Mandatory/Optional Tasks in Multicore Real Time Systems",
+    "title": "Energy Aware Scheduling Mandatory/Optional Tasks in Multicore Real-Time Systems",
     "authors": "Mendez-Diaz, Javier Orozoco, Rodrigo Santos, Paula Zabala",
     "year": "2017",
     "desc": "INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH; Place: New Jersey; Year: 2016.",
@@ -576,7 +576,7 @@
     "title": "Scheduling Precedence Constrained Tasks in Open Dynamic Systems",
     "authors": "Rodrigo Santos and Giuseppe Lipari",
     "year": "2003",
-    "desc": "Proc. WiP Session 15th Euromicro Conference on Real Time Systems, Porto, Portugal, 2003.",
+    "desc": "Proc. WiP Session 15th Euromicro Conference on Real-Time Systems, Porto, Portugal, 2003.",
     "authors_ref": [],
     "type": "journal",
     "links": []

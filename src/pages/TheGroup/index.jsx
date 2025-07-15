@@ -74,13 +74,19 @@ const View = () => {
   return (
     <Box sx={{ p: 4 }}>
       <Typography variant="h4" gutterBottom>Group Members</Typography>
-      <Grid container spacing={4} direction="column">
+      <Grid container spacing={4} direction="column" sx={{p:0, m:0}}>
         {Object.keys(groupedMembers).map(status => (
           <Grid item xs={12} key={status}>
             <Typography variant="h5" gutterBottom>{statusNames[status]}</Typography>
-            <Grid container spacing={4} justifyContent={"center"} alignItems={"center"} xs={12}>
+            <Grid 
+              container 
+              spacing={2} 
+              justifyContent={"center"}
+              alignItems={"center"} >
               {groupedMembers[status].map(member => (
-                <MemberCard key={member.id} member={member} onClick={e => handleOpen(member)} />
+                <Grid item key={member.id} xs={6} sm={4} md={3} lg={2}>
+                  <MemberCard member={member} onClick={e => handleOpen(member)} />
+                </Grid>
               ))}
             </Grid>
           </Grid>
