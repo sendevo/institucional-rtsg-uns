@@ -34,12 +34,10 @@ const Navbar = ({ views }) => {
       <List>
         {views.map((view) => (
           <ListItem
-            button
             key={view.path}
             component={Link}
             to={view.path}
-            selected={location.pathname === view.path}
-          >
+            selected={location.pathname === view.path}>
             <ListItemText primary={view.text} />
           </ListItem>
         ))}

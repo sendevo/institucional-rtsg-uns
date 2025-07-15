@@ -41,8 +41,7 @@ const SlideShow = () => {
                 maxHeight: "400px",
                 objectFit: "cover",
                 borderRadius: "12px",
-              }}
-            />
+              }}/>
           </Box>
         ))}
       </Slider>

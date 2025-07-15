@@ -1,7 +1,7 @@
 export const importImages = type => {
   const images = {
-    slides: import.meta.glob("../assets/slideshow/*.jpg", { eager: true, as: "url" }),
-    members: import.meta.glob("../assets/profiles/*.jpg", { eager: true, as: "url" })
+    slides: import.meta.glob("../assets/slideshow/*.{jpg,png,webp}", { eager: true, as: "url" }),
+    members: import.meta.glob("../assets/profiles/*.{jpg,png,webp}", { eager: true, as: "url" })
   };
   const imageMap = {};
 

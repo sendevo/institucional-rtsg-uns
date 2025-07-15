@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { Box, Grid, Typography } from "@mui/material";
+import { useEffect, useState, useMemo } from "react";
+import { Box, Grid, Typography, Modal } from "@mui/material";
 import MemberCard from "../../components/MemberCard";
-import teamData from "../../assets/data/members.json";
+import members from "../../assets/data/members.json";
 import { importImages } from "../../utils/importImages";
 
 const statusNames = {
@@ -10,22 +10,59 @@ const statusNames = {
     past_member: "Past Members"
 };
 
+const ModalContent = ({ member }) => (
+  <Box sx={{ 
+    position: 'absolute', 
+    top: '50%', 
+    left: '50%', 
+    transform: 'translate(-50%, -50%)', 
+    width: 400, 
+    bgcolor: 'background.paper', 
+    boxShadow: 24, 
+    p: 4,
+    borderRadius: 2
+  }}>
+    {member && (
+      <>
+        <Typography variant="h6">{member.name}</Typography>
+        <Typography variant="subtitle1" color="textSecondary">{member.degree}</Typography>
+        {member.photo && (
+          <img src={member.photo} alt={member.name} style={{ width: '100%', height: 'auto', marginTop: 16 }} />
+        )}
+      </>
+    )}
+  </Box>
+)
+
 const View = () => {
   const [images, setImages] = useState({});
+  const [open, setOpen] = useState(false);
+  const [selectedMember, setSelectedMember] = useState(null);
+
+  const handleOpen = member => {
+    setSelectedMember(member);
+    setOpen(true);
+  }
+
+  const handleClose = () => setOpen(false);
 
   useEffect(() => {
     setImages(importImages("members"));
   }, []);
 
-  /* group members by "status" property */
-  const groupedMembers = Object.keys(teamData).reduce((acc, key) => {
-    const member = teamData[key];
-    if (!acc[member.status]) {
-      acc[member.status] = [];
-    }
-    acc[member.status].push({ ...member, photo: images[member.pic] });
-    return acc;
-  }, {});
+  const groupedMembers = useMemo(() => {
+    return members.reduce((acc, member) => {
+      if (!member.status) return acc;
+      if (!acc[member.status]) {
+        acc[member.status] = [];
+      }
+      acc[member.status].push({ 
+        ...member, 
+        photo: images[member.pic] || null 
+      });
+      return acc;
+    }, {});
+  }, [images]);
 
   return (
     <Box sx={{ p: 4 }}>
@@ -36,12 +73,15 @@ const View = () => {
             <Typography variant="h5" gutterBottom>{statusNames[status]}</Typography>
             <Grid container spacing={4} justifyContent={"center"} alignItems={"center"}>
               {groupedMembers[status].map(member => (
-                <MemberCard key={member.id} member={member} />
+                <MemberCard key={member.id} member={member} onClick={e => handleOpen(member)} />
               ))}
             </Grid>
           </Grid>
         ))}
       </Grid>
+      <Modal open={open} onClose={handleClose}>
+        <ModalContent member={selectedMember}/>
+      </Modal>
     </Box>
   );
 };

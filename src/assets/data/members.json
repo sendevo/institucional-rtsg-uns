@@ -1,5 +1,6 @@
-{
-    "jorozco": {
+[
+    {
+        "id": "jorozco",
         "name": "Javier Orozco",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -9,7 +10,8 @@
             "email": "jorozco@uns.edu.ar"
         }
     },
-    "rsantos": {
+    {
+        "id": "rsantos",
         "name": "Rodrigo Santos",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -19,7 +21,8 @@
             "email": "ierms@uns.edu.ar"
         }
     },
-    "rcayssials": {
+    {
+        "id": "rcayssials",
         "name": "Ricardo Cayssials",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -29,7 +32,8 @@
             "email": "ricardolcayssials@gmail.com"
         }
     },
-    "eferro": {
+    {
+        "id": "eferro",
         "name": "Edgardo Ferro",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -39,7 +43,8 @@
             "email": "ieferro@criba.edu.ar"
         }
     },
-    "dsanchez": {
+    {
+        "id": "dgsanchez",
         "name": "Diana Sánchez",
         "status": "member",
         "degree": "Electronic Engineer",
@@ -49,7 +54,8 @@
             "email": "dgsanchez@uns.edu.ar"
         }
     },
-    "geggly": {
+    {
+        "id": "geggly",
         "name": "Gabriel Eggly",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -59,7 +65,8 @@
             "email": "gmeggly@gmail.com"
         }
     },
-    "mmicheletto": {
+    {
+        "id": "mmicheletto",
         "name": "Matías Micheletto",
         "status": "member",
         "degree": "Ph.D. in Engineering",
@@ -70,7 +77,8 @@
             "linkedin": "https://ar.linkedin.com/in/matiasmicheletto"
         }
     },
-    "dbanfi": {
+    {
+        "id": "dbanfi",
         "name": "Damián Banfi",
         "status": "past_member",
         "degree": "Electronic Engineer",
@@ -80,7 +88,8 @@
             "email": "damian.banfi@hotmail.com"
         }
     },
-    "jurriza": {
+    {
+        "id": "jurriza",
         "name": "José Urriza",
         "status": "related_member",
         "degree": "Ph.D. in Engineering",
@@ -90,7 +99,8 @@
             "email": ""
         }
     },
-    "lordinez": {
+    {
+        "id": "lordinez",
         "name": "Leonardo Ordinez",
         "status": "related_member",
         "degree": "Ph.D. in Engineering",
@@ -100,7 +110,8 @@
             "email": "lordinez@uns.edu.ar"
         }
     },
-    "fpaez": {
+    {
+        "id": "fpaez",
         "name": "Francisco Paez",
         "status": "related_member",
         "degree": "Computing Engineering",
@@ -110,37 +121,41 @@
             "email": ""
         }
     },
-    "mfino": {
+    {
+        "id": "mfinochietto",
         "name": "Mariano Finochietto",
         "status": "member",
-        "degree": "Mphil. Engineering",
+        "degree": "Ph.D. in Engineering",
         "pic": "Mariano.jpg",
-        "bio": "Mariano Finochietto received the Systems Engineering degree from the Universidad CAECE in Mar del Plata in 2013 and the MPhil from EISEE (Paris) in 2016. He is actually working at Universidad Nacional de Mar del Plata and he is an IoT Engineer Contractor for SpinalCom (France) and founder of CTO Ponce AgTech. He is a Phdd. Student at Universidad Nacional del Sur under the supervision of Rodrigo Santos. His research interests are in IoT protocols",
+        "bio": "Mariano Finochietto received the Ph.D. degree from Universidad Nacional del Sur in 2021, the Systems Engineering degree from the Universidad CAECE in Mar del Plata in 2013 and the MPhil from EISEE (Paris) in 2016. He is actually working at Universidad Nacional de Mar del Plata and he is an IoT Engineer Contractor for SpinalCom (France) and founder of CTO Ponce AgTech.", 
         "contact": {
             "email": "mariano.fino@gmail.com"
         }
     },
-    "allinas": {
+    {
+        "id": "andresllinas",
         "name": "Andres Llinas",
         "status": "member",
-        "degree": "Electronic Engineering",
+        "degree": "Electronic Engineer",
         "pic": "Andres.jpg",
         "bio": "Andrés Llinás received the Electronic Engineering degree from the Universidad Nacional del Sur in 2008. In 2013 he received the Specialist grade in Gestión de la Tecnología y la Innovación. He has worked in the industry leading several projects and since 2017 he is Director de Telecomunicaciones at Universidad Provincial del Sudoeste. He is teacher assistant at Universidad Nacional del Sur and Professor at UPSO. He is research interests are in software defined networks.",
         "contact": {
             "email": "andres.llinas@llinasnet.com"
         }
     },
-    "adello": {
+    {
+        "id": "adello",
         "name": "Alejandro Dello Russo",
         "status": "member",
-        "degree": "Electronic Engineering",
+        "degree": "Electronic Engineer",
         "pic": "Elian.jpg",
         "bio": "Alejandro Dello Russo received the Electronic Engineering degree from the Universidad Nacional del Sur in 2013. He is working at Instituto Nacional de Tecnología Industrial. He is teacher assistant at Universidad Nacional del Sur. He is research interests are Embedded Systems.",
         "contact": {
             "email": "andres.llinas@llinasnet.com"
         }
     },
-    "jsantos": {
+    {
+        "id": "jorgesantos",
         "name": "Jorge Santos",
         "status": "past_member",
         "degree": "Industrial Engineer",
@@ -150,7 +165,8 @@
             "email": ""
         }
     },
-    "ddonari": {
+    {
+        "id": "ddonari",
         "name": "David Donari",
         "status": "past_member",
         "degree": "Ph.D. in Engineering",
@@ -160,14 +176,15 @@
             "email": ""
         }
     },
-    "oalimenti": {
+    {
+        "id": "oalimenti",
         "name": "Omar Alimenti",
         "status": "past_member",
-        "degree": "Mphil. in Engineering",
+        "degree": "Ph.D. in Engineering",
         "pic": "Omar.jpg",
         "bio": "Omar Alimenti received the Electrical Engineering and the Magister in Engineering (supervised by Jorge Santos) degrees from the Universidad Nacional del Sur in 1979 and 1999, respectively. His main research interest was the monitoring of real-time systems to optimize the slot-time under different load conditions and overheads associated to processor preemptions. He taught Digital Computers for over 20 years. He passed away in January 2013.",
         "contact": {
             "email": ""
         }
     }
-}
+]
