@@ -28,7 +28,7 @@ const styles = {
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/rts">
         <Box sx={styles.main}>
           <Navbar views={views} />
           <Box component="main" sx={styles.container}>
