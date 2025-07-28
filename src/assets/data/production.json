@@ -1239,5 +1239,145 @@
     "authors_ref": [],
     "type": "transfer",
     "links": []
+  },
+  {
+    "id": "sensors_2023_23_9",
+    "title": "Determining Real-Time Communication Feasibility in IoT Systems Supported by LoRaWAN",
+    "authors": "Micheletto, M., Zabala, P., Ochoa, S.F., Meseguer, R., Santos, R.",
+    "year": "2023",
+    "desc": "Sensors, 2023, 23(9)",
+    "authors_ref": ["mmicheletto", "rsantos"],
+    "type": "journal",
+    "links": []
+  },
+  {
+    "id": "sensors_2023_23_16",
+    "title": "Methods and Applications of 3D Ground Crop Analysis Using LiDAR Technology: A Survey",
+    "authors": "Micheletto, M.J., Chesñevar, C.I., Santos, R.",
+    "year": "2023",
+    "desc": "Sensors, 2023, 23(16)",
+    "authors_ref": ["mmicheletto", "rsantos"],
+    "type": "journal",
+    "links": []
+  },
+  {
+    "id": "sensors_2023_23_17",
+    "title": "A combined experimental and DFT study on the zero valent iron/reduced graphene oxide doped QCM sensor for determination of trace concentrations of As using a Flow-batch system",
+    "authors": "Gutierrez, Julian, Robein, Yael, Juan, Julian, Di Nezio, Maria S., Pistonesi, Carolina, Gonzalez, Estela, Santos, Rodrigo, Pistonesi, Marcelo F.",
+    "year": "2023",
+    "desc": "Sensors and Actuators B-Chemical; 2023",
+    "authors_ref": [],
+    "type": "journal",
+    "links": []
+  },
+  {
+    "id": "sadio_2025_24",
+    "title": "Una aproximación histórica al desarrollo de una minicomputaodra en la Universidad Nacional del Sur: la Mini en Bikini",
+    "authors": "Lucia Bracamonte, Rodolfo del Castillo, Rodrigo Santos",
+    "year": "2025",
+    "desc": "SADIO Electronic Journal of Informatic and Operation Research, vol. 24 (pp. 169-188) SOCIEDAD ARGENTINA DE INFORMATICA E INVESTIGACION OPERATIVA",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "journal_2023_23_9",
+    "title": "Clustering nodes in Internet of Things environments with time and energy constraints: a multiobjective optimization formulation for the gateway placement problem in LoRaWAN networks",
+    "authors": "Matias Micheletto, Javier Marenco, Rodrigo Santos",
+    "year": "2025",
+    "desc": "International Transactions in Operations Research, aceptado 2025.",
+    "authors_ref": [],
+    "type": "journal",
+    "links": []
+  },
+  {
+    "id": "book_2022_wiley",
+    "title": "Modelling Interactions Happening in People Driven Collaborative Processes",
+    "authors": "Maximiliano Canche, Sergio F. Ochoa, Daniel Perovich, Rodrigo Santos",
+    "year": "2022",
+    "desc": "Editado por Giancarlo Fortino, Wiley",
+    "authors_ref": [],
+    "type": "book_chapter",
+    "links": []
+  },
+  {
+    "id": "book_2025_978-0-443-30076-9",
+    "title": "Smart cities with digital twin systems for disaster management",
+    "authors": "Rodrigo Santos ; Juan Manuel Ochoa ; Sergio Ochoa ; Carlos Chesñevar",
+    "year": "2025",
+    "desc": "Digital Twin and Blockchain for Sensor Networks in Smart-Cities, Elsevier, 2025. ISBN: 978-0-443-30076-9",
+    "authors_ref": [],
+    "type": "book_chapter",
+    "links": []
+  },
+  {
+    "id": "conf_2023_software_defined_wireless_networks",
+    "title": "Software defined wireless networks with real-time constraints",
+    "authors": "Llinás, A., Micheletto, M.J., Santos, R.M., Ochoa, S.F.",
+    "year": "2023",
+    "desc": "ACM International Conference Proceeding Series, pp. 226–229.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2023_adding_empirical_real_time_guarantees",
+    "title": "Adding Empirical Real-Time Guarantees to LoRaWAN",
+    "authors": "Finochietto, J.M., Dieng, O., Mosse, D., Santos, R.M.",
+    "year": "2023",
+    "desc": "ACM International Conference Proceeding Series, pp. 99–107.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2024_multiobjective_optimization_oil_production",
+    "title": "Multiobjective Optimization Model for Regime Adjustment in Crude Oil Production",
+    "authors": "Matias Micheletto, Javier Marenco, Rómulo Alcoleas, Carlos De Marziani, Santos, R.M.",
+    "year": "2024",
+    "desc": "L Latin American Computer Conference (CLEI)",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2024_defining_scope_iot",
+    "title": "Defining the Scope of IoT Systems at the Pre-contract Time",
+    "authors": "Tomás Vera, Segio Ochoa, Rodrigo Santos, Daniel Perovich",
+    "year": "2024",
+    "desc": "Proc. of the International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI 2024), LNCS, ISSN: 978-3-031-77571-0.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2024_mini_in_bikini",
+    "title": "Mini in Bikini: a TTL university made Computer at Universidad Nacional del Sur",
+    "authors": "Rodolfo del Castillo, Lucia Bracamonte, Rodrigo Santos",
+    "year": "2024",
+    "desc": "Simposio Argentino de Historia de la Computación, JAIIO 2024.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2024_modelo_prediccion_textura_suelos",
+    "title": "Modelo basado en aprendizaje de máquina para la predicción de textura de suelos",
+    "authors": "Julian Gutierrez, Mariano Trillini, Federico Danilo Vallese, Railson de Oliveira Ramos, Juan Ignacio Vanzolini, Valber Elias de Almeidafo, Jose Felix de Brito Neto, Rodrigo Santos y Marcelo Fabian Pistonesi",
+    "year": "2024",
+    "desc": "Congreso Argentino de Agroinformatica, CAI 2024, JAIIO 2024.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
+  },
+  {
+    "id": "conf_2025_redes_intermitentes",
+    "title": "Redes intermitentes para la transferencia de datos en Internet de las Cosas",
+    "authors": "Javier Marenco, Paula Zabala, Rodrigo Santos",
+    "year": "2025",
+    "desc": "Simposio Informática Industrial e Investigacion Operativa, 54 JAIIO 2025. SADIO.",
+    "authors_ref": [],
+    "type": "conference",
+    "links": []
   }
 ]

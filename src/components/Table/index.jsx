@@ -5,11 +5,11 @@ import {
 import { useState } from "react";
 
 const headCells = [
-  { id: "year", label: "Year" },
-  { id: "title", label: "Title" },
-  { id: "authors", label: "Authors" },
-  { id: "desc", label: "Desc." },
-  { id: "type", label: "Publication type" }
+  { id: "year", label: "Year", sortable: true },
+  { id: "title", label: "Title", sortable: true },
+  { id: "authors", label: "Authors", sortable: true },
+  { id: "desc", label: "Desc.", sortable: true },
+  { id: "type", label: "Publication type", sortable: true }
   //{ id: "links", label: "Links", sortable: false },
 ];
 
@@ -19,6 +19,8 @@ const journalTypes = {
     journal: "Journal",
     conference: "Conference",
     book: "Book",
+    book_chapter: "Book Chapter",
+    report: "Report",
     project: "Project",
     transfer: "Transfer"
 };
@@ -59,6 +61,8 @@ const PublicationTable = ({ data }) => {
 
   const sortedData = filteredData.sort(getComparator(order, orderBy));
 
+  console.log(order, orderBy);
+
   return (
     <Box sx={{ mt: 4 }}>
       <Typography variant="h5" gutterBottom>Publications</Typography>
@@ -84,7 +88,7 @@ const PublicationTable = ({ data }) => {
                           active={orderBy === headCell.id}
                           direction={orderBy === headCell.id ? order : "asc"}
                           onClick={() => handleSort(headCell.id)}>
-                          {headCell.label}
+                          <b>{headCell.label}</b>
                         </TableSortLabel>
                     }
                     </TableCell>
