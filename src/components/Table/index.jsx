@@ -61,8 +61,6 @@ const PublicationTable = ({ data }) => {
 
   const sortedData = filteredData.sort(getComparator(order, orderBy));
 
-  console.log(order, orderBy);
-
   return (
     <Box sx={{ mt: 4 }}>
       <Typography variant="h5" gutterBottom>Publications</Typography>

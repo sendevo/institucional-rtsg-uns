@@ -1,7 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { Box, Grid, Typography, Modal } from "@mui/material";
 import MemberCard from "../../components/MemberCard";
-import members from "../../assets/data/members.json";
 import { importImages } from "../../utils/importImages";
 
 const statusNames = {
@@ -45,6 +44,7 @@ const View = () => {
   const [images, setImages] = useState({});
   const [open, setOpen] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
+  const [members, setMembers] = useState([]);
 
   const handleOpen = member => {
     setSelectedMember(member);
@@ -55,6 +55,14 @@ const View = () => {
 
   useEffect(() => {
     setImages(importImages("members"));
+    console.log("Fetching members data...");
+    fetch('data/members.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log("Members data loaded successfully");
+        setMembers(data);
+      })
+      .catch(error => console.error('Error loading members:', error));
   }, []);
 
   const groupedMembers = useMemo(() => {
@@ -69,7 +77,7 @@ const View = () => {
       });
       return acc;
     }, {});
-  }, [images]);
+  }, [images, members]);
 
   return (
     <Box sx={{ p: 4 }}>
