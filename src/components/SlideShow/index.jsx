@@ -15,8 +15,7 @@ const slides = [
 ];
 const imageMap = importImages("slides");
 
-const SlideShow = () => {
-  const settings = {
+const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
@@ -28,8 +27,9 @@ const SlideShow = () => {
     pauseOnHover: true,
   };
 
-  return (
-    <Box sx={{ mt: 4, p: 2 }}>
+const SlideShow = () => (
+  <Box sx={{ mt: 4, p: 2 }}>
+    <Box maxWidth={"lg"} sx={{ mx: "auto", textAlign: "center" }}>
       <Slider {...settings}>
         {slides.map(filename => (
           <Box key={filename}>
@@ -46,7 +46,7 @@ const SlideShow = () => {
         ))}
       </Slider>
     </Box>
-  );
-};
+  </Box>
+);
 
 export default SlideShow;
